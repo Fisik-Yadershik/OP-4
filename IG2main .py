@@ -66,10 +66,10 @@ class DateBase:
             """INSERT INTO Car VALUES("3KLBN52QWER186109", "УАЗ", "УАЗ", "Синий")"""
         )
         self.q.exec_(
-            """INSERT INTO Owner VALUES("3130675567", "Cиманский М.Ю", "09.09.1999", "0719568675")"""
+            """INSERT INTO Owner VALUES("3130675567", "Соледарский М.Ю", "09.09.1999", "0719568675")"""
         )
         self.q.exec_(
-            """INSERT INTO Owner VALUES("2130175567", "Шиманский Л.Ш", "08.08.1998", "0399568675")"""
+            """INSERT INTO Owner VALUES("2130175567", "Донецкий Л.Ш", "08.08.1998", "0399568675")"""
         )
         self.q.exec_(
             """INSERT INTO Owner VALUES("6430175567", "Лиманский П.Н", "07.07.1997", "1999568675")"""
